@@ -53,7 +53,7 @@ function Products() {
 
   return (
     <div>
-      <h1>Chanel Perfumes</h1>
+      <h1>Product</h1>
       <div className="product-container">
         {product.map((product) => (
           <Link to={`/product/${product.id}`} key={product.id} className="card-link">
